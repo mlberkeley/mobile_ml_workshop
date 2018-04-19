@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/usr/bin/coremlc compile mnistCNN.mlmodel .
