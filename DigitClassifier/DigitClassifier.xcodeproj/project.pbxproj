@@ -14,6 +14,7 @@
 		FBA50423208809C700689D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA50422208809C700689D0F /* Assets.xcassets */; };
 		FBA50426208809C700689D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA50424208809C700689D0F /* LaunchScreen.storyboard */; };
 		FBA5042E20880E6A00689D0F /* DrawPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5042D20880E6A00689D0F /* DrawPadView.swift */; };
+		FBA504302088314700689D0F /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FBA5042F2088314700689D0F /* mnistCNN.mlmodel */; };
 		FBA50432208831F800689D0F /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA50431208831F800689D0F /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		FBA50425208809C700689D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA50427208809C700689D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA5042D20880E6A00689D0F /* DrawPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPadView.swift; sourceTree = "<group>"; };
+		FBA5042F2088314700689D0F /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnistCNN.mlmodel; path = ../../mnistCNN.mlmodel; sourceTree = "<group>"; };
 		FBA50431208831F800689D0F /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		FBA50417208809C400689D0F /* DigitClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				FBA5042F2088314700689D0F /* mnistCNN.mlmodel */,
 				FBA50418208809C500689D0F /* AppDelegate.swift */,
 				FBA5041A208809C500689D0F /* ViewController.swift */,
 				FBA50431208831F800689D0F /* ImageExtension.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA504302088314700689D0F /* mnistCNN.mlmodel in Sources */,
 				FBA50432208831F800689D0F /* ImageExtension.swift in Sources */,
 				FBA50421208809C500689D0F /* DigitClassifier.xcdatamodeld in Sources */,
 				FBA5041B208809C500689D0F /* ViewController.swift in Sources */,
