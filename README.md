@@ -1,5 +1,5 @@
-# mobile_ml_workshop
+# Mobile ML Workshop
 
-Slides: https://tinyurl.com/mobile-ml-slides
+Tutorial on how to build digit-recognizing application.
 
-Recording: Coming soon!
+Slides: https://tinyurl.com/mobile-ml-workshop
